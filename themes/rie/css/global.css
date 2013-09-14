@@ -1,0 +1,440 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+/** Overrides **/
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.container-12 .grid-3{
+  width: 285px !important;
+  padding-left: 24px;
+  background: url(../img/separado2.jpg) no-repeat 0 center;
+  background-size: 24px 100%;
+}
+.container-12 .grid-9{
+  width: 651px !important;
+}
+.container-12 .grid-12{
+  width: 960px !important;
+}
+
+/* General Styles */
+.page h1, .page h2, 
+.page h2.block-title, 
+.page h3{
+  font-family: "Indie Flower";
+  color: #0A78B8 !important;
+  line-height: normal;
+  font-size: 26px;
+}
+.not-front .page h1.title{
+  margin-left: 261px;
+  color: #665888 !important;
+  font-size: 28px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.page h3{
+  font-size: 22px;
+  background: url(../img/vineta.jpg) no-repeat 0 center;
+  padding-left: 45px;
+}
+.page p{
+  color: #444153;
+  font-size: 12px;
+  line-height: normal;
+}
+.page a:link, .page a:visited{
+  color: #0A78B8 !important;
+  text-decoration: none;
+}
+.page a, .page h3 a{
+  color: #0A78B8 !important;
+  text-decoration: none;
+}
+.page a:hover{
+  text-decoration: underline !important;
+}
+.page .more a,
+.page .edit_link a{
+  font-size: 12px;
+}
+
+/* Header */
+#zone-branding-wrapper{
+  border-top: solid 2px #20A8D7;
+  background: url(../img/topder.jpg) no-repeat 100% 0;
+}
+.region-branding-inner{
+  height: 161px;
+}
+.branding-data{
+  float: left;
+  width: 261px;
+  height: 161px;
+}
+.branding-data .logo-img{
+  position: relative;
+  float: none;
+  margin-right: 0;
+}
+.branding-data .logo-img a{
+  display: block;
+  height: 205px;
+  width: 261px;
+  position: absolute;
+  z-index: 1;
+}
+#block-system-main-menu{
+  float: left;
+  width: 580px;
+  margin-top: 59px;
+}
+#block-system-main-menu ul.menu{
+  list-style: none;
+  background: none;
+}
+#block-system-main-menu ul.menu li{
+  list-style: none;
+  background: none;
+  padding: 0;
+  margin: 0 50px 0 0;
+  float: left;
+}
+#block-system-main-menu ul.menu li a.fourth{
+  margin-left: 50px;
+}
+#block-system-main-menu ul.menu li.last{
+  margin-right: 0;
+}
+#block-system-main-menu ul.menu li a{
+  font-family: "Indie Flower";
+  color: #0A78B8;
+  font-size: 24px;
+  font-weight: bold;
+}
+/** Other **/
+#block-menu-menu-social-links, 
+#block-block-2{
+  margin-top: 100px;
+  float: right;
+  width: 105px;
+  height: 50px;
+}
+#social-links-top p,
+#block-menu-menu-social-links h2.block-title{
+  font-family: Arial;
+  font-weight: normal;
+  color: #0F75B7;
+  font-size: 11px;
+  line-height: normal;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+#social-links-top ul,
+#block-menu-menu-social-links ul.menu{
+  margin: 0;
+  padding: 0;
+}
+#social-links-top li,
+#block-menu-menu-social-links ul.menu li{
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 31px;
+  margin-right: 6px;
+}
+#social-links-top li.last,
+#block-menu-menu-social-links ul.menu li.last{
+  margin-right: 0;
+}
+#social-links-top li a,
+#block-menu-menu-social-links ul.menu li a{
+  display: block;
+  text-indent: -9999px;
+  background: url('../img/fb.jpg') no-repeat;
+  width: 31px;
+  height: 30px;
+}
+#social-links-top li.twitter a,
+#block-menu-menu-social-links ul.menu li a#twitter-link{
+  background: url('../img/tw.jpg') no-repeat;
+}
+#social-links-top li.youtube a,
+#block-menu-menu-social-links ul.menu li a#youtube-link{
+  background: url('../img/yt.jpg') no-repeat;
+}
+
+/** Main Area Page **/
+#block-system-main p{
+  margin: 0;
+}
+#block-system-main p+p{
+  margin-top: 10px;
+}
+
+/** Nota Principal **/
+#block-views-nota-principal-block .view-content ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#block-views-nota-principal-block .view-content .views-row{
+  width: 960px;
+  height: 439px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#block-views-nota-principal-block .view-content{
+  width: 960px;
+  height: 439px;
+  overflow: hidden;
+}
+#block-views-nota-principal-block .views-row .image{
+  float: left;
+  width: 662px;
+  height: 439px;
+}
+#block-views-nota-principal-block .views-row .info{
+  position: relative;
+  padding-top: 200px;
+  margin-left: 662px;
+  background: #0473BC url(../img/azul.jpg) no-repeat;
+  height: 239px;
+}
+#block-views-nota-principal-block .views-row .info .texto{
+  height: 186px;
+  overflow: hidden;
+}
+#block-views-nota-principal-block .views-row .info p{
+  font-family: "Indie Flower";
+  color: white;
+  font-size: 24px;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+}
+#block-views-nota-principal-block .views-row .info p+p{
+  margin-top: 10px;
+}
+#block-views-nota-principal-block .views-row .info .link{
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  width: 298px;
+}
+#block-views-nota-principal-block .views-row .info .edit_link{
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  width: 298px;
+}
+#block-views-nota-principal-block .views-row .info .link a{
+  font-weight: normal;
+  font-size: 13px;
+  color: white !important;
+  text-decoration: underline;
+}
+#block-views-nota-principal-block .views-row .info .edit_link a{
+  font-weight: normal;
+  font-size: 13px;
+  color: white !important;
+  text-decoration: underline;
+}
+
+/** Featured Blocks **/
+#block-views-5036a16d9d4098780627e247ee0be8b8{
+  padding-top: 54px;
+  background: url(../img/separador.jpg) no-repeat center 10px;
+}
+#block-views-5036a16d9d4098780627e247ee0be8b8 .views-row{
+  width: 210px;
+  float: left;
+  margin-right: 10px;
+}
+#block-views-5036a16d9d4098780627e247ee0be8b8 .views-row.views-row-last{
+  margin-right: 0;
+}
+
+#block-views-9957480046e18d56f2233f29daff5565{
+  padding-top: 54px;
+  background: url(../img/separador.jpg) no-repeat center 10px;
+}
+#block-views-9957480046e18d56f2233f29daff5565 h3,
+#block-views-5036a16d9d4098780627e247ee0be8b8 h3{
+  margin-bottom: 10px;
+}
+#block-views-5036a16d9d4098780627e247ee0be8b8 h3{
+  height: 64px;
+  margin: 0 auto;
+  line-height: 64px;
+}
+#block-views-5036a16d9d4098780627e247ee0be8b8 h3 > span{
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+}
+#block-views-5036a16d9d4098780627e247ee0be8b8 h3 > span > a{
+  line-height: 22px;
+  font-size: 22px;
+}
+#block-views-9957480046e18d56f2233f29daff5565 .views-row{
+  width: 313px;
+  float: left;
+  padding: 15px 0;
+}
+#block-views-9957480046e18d56f2233f29daff5565 .views-row.views-row-last{
+  padding-left: 24px;
+  background: url(../img/separado2.jpg) no-repeat 0 0;
+  background-size: 24px 100%;
+}
+#block-views-9957480046e18d56f2233f29daff5565 .views-row p,
+#block-views-5036a16d9d4098780627e247ee0be8b8 .views-row p,
+#block-views-9f0ff3495bf4aa6f802c3ae0f979d617 .views-row p,
+#block-views-video-promovido-block .views-row p{
+  margin: 0;
+}
+#block-views-9957480046e18d56f2233f29daff5565 .views-row p+p,
+#block-views-5036a16d9d4098780627e247ee0be8b8 .views-row p+p,
+#block-views-9f0ff3495bf4aa6f802c3ae0f979d617 .views-row p+p,
+#block-views-video-promovido-block .views-row p+p{
+  margin-top: 10px;
+}
+#block-views-9957480046e18d56f2233f29daff5565 .views-row .image{
+  width: 167px;
+  height: 125px;
+  float: left;
+}
+#block-views-9957480046e18d56f2233f29daff5565 .views-row .info{
+  margin-left: 177px;
+}
+
+/** Testimonio Block **/
+#region-sidebar-second .block-views h3{
+  margin: 0;
+}
+#region-sidebar-second .block-views h4{
+  background: none;
+  padding: 0;
+  font-family: Arial;
+  color: #187ABB !important;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0;
+}
+#region-sidebar-second .block-views h5{
+  background: none;
+  padding: 0;
+  font-family: Arial;
+  color: #837B9E !important;
+  font-weight: normal;
+  font-size: 12px;
+  margin: 5px 0;
+}
+#region-sidebar-second .block-views h4+h5{
+  margin-top: 0;
+}
+
+/** Footer **/
+#zone-footer{
+  height: 71px;
+  background: url(../img/pie.jpg) no-repeat 100% 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/** Fundador de RIE **/
+#block-views-9f0ff3495bf4aa6f802c3ae0f979d617,
+#block-views-51e2d407ce9d2a541811429f6ff646f5{
+  background: url(../img/separador.jpg) no-repeat center bottom;
+  background-size: 285px 20px;
+  padding-bottom: 34px;
+  margin-bottom: 10px;
+}
+#block-views-9f0ff3495bf4aa6f802c3ae0f979d617 .image,
+#block-views-51e2d407ce9d2a541811429f6ff646f5 .image{
+  float: left;
+  width: 105px;
+  height: 99px;
+}
+#block-views-9f0ff3495bf4aa6f802c3ae0f979d617 .info,
+#block-views-51e2d407ce9d2a541811429f6ff646f5 .info{
+  margin-left: 120px;
+}
+
+/** Node Pages **/
+article.node .field-name-field-image{
+  width: 300px;
+  float: left;
+  margin-right: 10px;
+}
+article.node #messages{
+  padding-left: 261px;
+  width: 699px;
+}
+#block-block-4{
+  margin-top: 40px;
+}
+
+#block-imageblock-1{
+  padding-top: 54px;
+  background: url(../img/separador.jpg) no-repeat center 10px;
+}
+
+/** Galeria ***/
+.view-galeria table.views-view-grid,
+.view-galeria table.views-view-grid tbody, 
+.view-galeria table.views-view-grid tbody tr,
+.view-galeria table.views-view-grid tbody tr:hover, 
+.view-galeria table.views-view-grid tbody tr td{
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.view-galeria .image a{
+  display: block;
+  height: 130px;
+  width: 130px;
+  padding: 10px;
+  border: solid 1px #EEE;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.view-galeria .image a image{
+  width: 130px;
+  height: 130px;
+}
+
+/** Footer **/
+#block-menu-menu-footer{
+  width: 300px;
+  padding-top: 27px;
+  padding-right: 27px;
+  float: right;
+}
+#block-menu-menu-footer .content ul,
+#block-menu-menu-footer .content ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+#block-menu-menu-footer .content ul li.last{
+  margin-right: 0;
+}
+#block-menu-menu-footer .content{
+  text-align: right;
+}
+#block-menu-menu-footer .content ul li a{
+  color: white !important;
+  text-decoration: none !important;
+}
+#block-menu-menu-footer .content ul li a:hover{
+  text-decoration: underline !important;
+}
